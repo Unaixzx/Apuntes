@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imágen</title>
+  </head>
+  <body>
+    <h1>Imágen</h1>
+
+    <h2>Imágenes</h2>
+    <p>
+      Sintaxis de imágenes:
+      <br />
+      img---> se utiliza para incrustar una imagen en una página web.
+      <br />
+      src---> Ruta de las imágenes.
+      <br />
+      alt---> Texto alternativo.
+    </p>
+    <img
+      src="https://images.unsplash.com/photo-1625467883732-b06f641226d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMHVzZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+      alt="anochecer"
+      style="width: 120px"
+    />
+    <hr />
+
+    <h2>Picture</h2>
+    <picture>
+      <source
+        media="(min-width:650px)"
+        srcset="
+          https://images.unsplash.com/photo-1625467883732-b06f641226d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMHVzZXxlbnwwfHwwfHw%3D&w=1000&q=80
+        "
+      />
+      <source
+        media="(min-width:465px)"
+        srcset="
+          https://images.unsplash.com/photo-1625467883732-b06f641226d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMHVzZXxlbnwwfHwwfHw%3D&w=1000&q=80
+        "
+      />
+      <img
+        src="https://images.unsplash.com/photo-1625467883732-b06f641226d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJlZSUyMHVzZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+        alt="Flowers"
+        style="width: auto"
+      />
+    </picture>
+  </body>
+</html>
