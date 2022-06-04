@@ -1,0 +1,104 @@
+.ejemplo {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Top,Bottom,Left,Right */
+.caja {
+  width: 150px;
+  height: 150px;
+  color: snow;
+  background-color: steelblue;
+  /*  */
+  position: relative;
+  left: 60px;
+  top: 70px;
+}
+
+/* Position */
+
+.relative {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  position: relative;
+  top: 110px;
+}
+
+.absolute {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+
+.fixed {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  position: fixed;
+  top: 50px;
+}
+
+.static {
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+  position: static;
+  top: 5000px;
+  
+}
+
+.sticky {
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  position: sticky;
+  top: 0;
+}
+
+/* Z-index */
+
+.z1{
+    width: 100px;
+    height: 100px;
+    background-color: darkorange;
+    position: absolute;
+    z-index: 2;
+}
+
+.z2{
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    z-index: 3;
+
+}
+
+
+.z3{
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 4;
+}
+

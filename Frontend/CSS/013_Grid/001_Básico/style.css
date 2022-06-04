@@ -1,0 +1,26 @@
+main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  background-color: whitesmoke;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+}
+
+div:last-child {
+  background-color: aquamarine;
+  grid-column: 3 / -1; /* -1 por si añadimos más */
+}
+
+div:nth-child(6){
+    background-color: bisque;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}

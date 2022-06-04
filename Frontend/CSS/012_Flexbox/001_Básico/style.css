@@ -1,0 +1,14 @@
+/*
+Flexbox
+
+Flexbox necesita un elemento padre y mínimo un hijo.
+
+-Contenedor padre (Flex Container): Contiene los llamados elementos
+flexibles.
+
+-Contenedores hijos (Flex Items): Estos son elementos dentro del
+contenedor.
+
+Los Hijos flex ignoran float, clear,vertical-align
+Por defecto el tamaño de los hijos ocupa el tamaño de su contenido.
+*/

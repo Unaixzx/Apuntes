@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidades de dimensionamiento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Unidades de dimensionamiento</h1>
+    <hr />
+
+    <h2>Números</h2>
+    <code>
+      p { <br />
+      font-size: 24px; <br />
+      line-height: 1.5; <br />
+      }
+    </code>
+    <p>1.5 es igual al 150% del pixel</p>
+    <p>si la dimensión del font-size es 24px</p>
+    <p>El line-height es 36px</p>
+    <hr />
+
+    <h2>Porcentajes</h2>
+    <code>
+      div { <br />
+      width: 300px; <br />
+      height: 100px; <br />
+      }<br />
+
+      div p { <br />
+      width: 50%; /* calculated: 150px */ <br />
+      }
+    </code>
+    <p>El % es sobre su elemento padre</p>
+
+    <div style="width: 50%; background-color: antiquewhite">hola</div>
+    <p>El 50% del div tomando de referencia el body</p>
+
+    <div class="transform">
+      <p>El transform toma de referencia el % en el que se encuentra.</p>
+    </div>
+    <hr />
+
+    <h2>Dimensiones y longitudes</h2>
+    <p>
+      Si adjunta una unidad a un número, se convierte en una dimensión. Por
+      ejemplo, 1rem es una dimensión.
+    </p>
+
+    <p>
+      Las longitudes son dimensiones que se refieren a la distancia y pueden ser
+      absolutas o relativas.
+    </p>
+
+    <h3>Longitudes absolutas</h3>
+    <p>
+      Todas las longitudes absolutas se resuelven contra la misma base, lo que
+      las hace predecibles dondequiera que se utilicen en su CSS.
+    </p>
+
+    <p>cm,mm,q,in,pc,pt,px</p>
+
+    <h3>Longitudes relativas</h3>
+    <p>La longitud relativa se calcula contra un valor base. Se dimensionan.</p>
+
+    <p>Unidades relativas al tamaño de fuente:</p>
+    <ul>
+      <li>
+        em 1.5 es 50% más grande que el tamaño de fuente calculado base de su
+        padre.
+      </li>
+      <li>
+        ex Heurística para determinar si se debe usar la x-height,, una letra
+        "x" o `.5em` en el tamaño de fuente calculado actual del elemento.
+      </li>
+      <li>
+        cap Altura de las letras mayúsculas en el tamaño de fuente calculado
+        actual del elemento.
+      </li>
+      <li>
+        ch Avance de carácter promedio de un glifo estrecho en la fuente del
+        elemento (representado por el glifo "0").
+      </li>
+      <li>
+        ic Avance de carácter promedio de un glifo de ancho completo en la
+        fuente del elemento, representado por el glifo "水" (ideograma de agua
+        CJK, U + 6C34).
+      </li>
+      <li>lh Altura de línea del elemento.</li>
+      <li>rlh Altura de línea del elemento raíz.</li>
+    </ul>
+    <hr />
+
+    <h2>Ejemplo:</h2>
+    <div class="ejemplos">
+      <p>El 50%(width) del div tomando de referencia el body</p>
+      <div class="hijo">
+          <p>El 50%(width) del div tomando de referencia el div padre</p>
+      </div>
+    </div>
+  </body>
+</html>

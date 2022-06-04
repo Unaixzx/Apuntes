@@ -1,0 +1,41 @@
+.wrapper {
+  width: 500px;
+  height: 250px;
+  margin: 200px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+}
+
+/* Mobile */
+
+@media (min-width: 460px) {
+  h1 {
+    color: teal;
+  }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+  h1 {
+    color: tomato;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 992px) {
+  h1 {
+    color: turquoise;
+  }
+}
+
+/* Huge */
+
+@media (min-width: 1280px) {
+  h1 {
+    color: thistle;
+  }
+}

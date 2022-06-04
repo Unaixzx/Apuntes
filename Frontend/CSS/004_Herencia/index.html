@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herencia</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Herencia -->
+    <h1>Herencia</h1>
+    <ul>
+      <li>Flujo de la herencia</li>
+      <li>Control explicito</li>
+      <li>Ejemplo</li>
+    </ul>
+    <hr />
+
+    <p>
+      Algunas propiedades CSS se heredan desde los elementos padres a los
+      elementos hijos, modificando el valor que tienen por defecto
+    </p>
+
+    <h2>Flujo de la herencia</h2>
+    <p>
+      Si aplicas color: lightslategray; al body todos los elementos herendan el
+      color.
+    </p>
+
+    <h2>Controlar explícitamente la herencia</h2>
+    <p>
+      Puede hacer que cualquier propiedad herede el valor calculado de su
+      elemento primario con la palabra clave inherit. Una forma útil de usar
+      esta palabra clave es crear excepciones.
+    </p>
+    <p>Hereda font-weight: inherit;</p>
+    <p>Valor por defecto/Inicial font-weight: initial;</p>
+    <p>
+      font-weight: unset; Si la propiedad se puede heredar es inherit else
+      initial
+    </p>
+
+    <hr />
+    <h2>Ejemplo</h2>
+
+    <h3>Encabezado que NO hereda</h3>
+
+    <main>
+      <h3>Encabezado que hereda</h3>
+    </main>
+  </body>
+</html>

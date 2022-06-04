@@ -1,0 +1,16 @@
+.list-img {
+  list-style-image: url("arrow-svgrepo-com.svg");
+}
+
+.list-type {
+  list-style-type: "\1F44D";
+}
+
+.list-position {
+  list-style-position: inside;
+}
+
+/*  shorthand property */
+.list-style{
+    list-style: armenian;
+}

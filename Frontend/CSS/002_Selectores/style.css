@@ -1,0 +1,34 @@
+/* Ejemplo */
+
+/* Selector universal */
+
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: gray;
+}
+
+/* Selector de tipo */
+
+body {
+  background-color: whitesmoke;
+}
+
+/* Selector de Clase e ID */
+
+.clase {
+  color: cadetblue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#id{
+    color: yellowgreen;
+}
+
+/* Selector de atributos */
+
+p[title]{
+    color: rgb(36, 173, 173);
+    font-family: monospace;
+    font-style: oblique;
+}

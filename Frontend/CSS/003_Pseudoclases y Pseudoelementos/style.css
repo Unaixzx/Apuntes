@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.ejemplos {
+  width: 500px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+
+/* Pseudoclases */
+a:active {
+  color: yellowgreen;
+}
+
+.encima p:hover:nth-child(even) {
+    background-color: teal;
+}
+
+.encima p:hover:nth-child(odd) {
+    background-color: thistle;
+}
+
+/* Pseudoelementos */
+
+.pre::before{
+    content: 'Hola desde CSS ->';
+    color: deepskyblue;
+}
+
+li::marker{
+    color: red;
+    size: 1.2em;
+    
+}
+
+.subrayar::selection{
+    background-color: black;
+    color: yellow;
+}
