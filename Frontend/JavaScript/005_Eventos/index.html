@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos</title>
+  </head>
+  <body>
+    <h1>Eventos</h1>
+
+    <!-- Estandar(evitar uso) -->
+    <p>Estándar</p>
+    <button onclick="console.log('Estándar');">Pulsar</button>
+
+    <!-- Llamar a una función -->
+    <p>Llamar a una función</p>
+    <button onclick="pulsado()">Pulsar</button>
+
+    <!-- Texto event listener -->
+    <p id="texto">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas aliquam quam
+      molestias sunt adipisci temporibus voluptas est obcaecati earum possimus
+      delectus repudiandae molestiae libero, blanditiis non ut eum voluptatem
+      qui.
+    </p>
+
+    <!-- Bubbling -->
+    <p>Bubbling</p>
+    <div id="container" style="background-color: teal">
+      <button id="btn1">Bubbling</button>
+    </div>
+
+    <!-- Capturing -->
+    <p>Capturing</p>
+    <div id="container2" style="background-color: tomato">
+      <button id="btn2">Capturing</button>
+    </div>
+
+    <!-- Scroll -->
+    <p>Scroll</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione adipisci
+      facere ullam voluptate, ad fuga enim. Ea cumque delectus tenetur tempore
+      officia voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor
+      sit amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a. Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Ratione adipisci facere ullam
+      voluptate, ad fuga enim. Ea cumque delectus tenetur tempore officia
+      voluptate, libero voluptas quasi id et magni a.
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
