@@ -1,0 +1,58 @@
+:root {
+  --peligro: #ff1e1e;
+  --precaucion: #ff731d;
+  --info: #00ffd1;
+  --exito: #38e54d;
+}
+
+.alertas {
+  width: 50%;
+  height: 50vh;
+  margin: 100px auto;
+}
+
+.alerta {
+  width: 100%;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alerta--peligro {
+  background-color: var(--peligro);
+}
+
+.alerta--precaucion {
+  background-color: var(--precaucion);
+}
+
+.alerta--info {
+  background-color: var(--info);
+}
+
+.alerta--exito {
+  background-color: var(--exito);
+}
+
+.alerta__cerrar {
+  margin-right: 20px;
+}
+
+.alerta__cerrar_input {
+  display: none;
+}
+
+.alerta__cerrar {
+  color: white;
+}
+
+.alerta__cerrar:hover {
+  color: black;
+}
+
+input[type=checkbox]:checked ~ .alerta { 
+    opacity: 0;
+    height: 0;
+    display: none;
+  }
